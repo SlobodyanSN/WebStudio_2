@@ -1,0 +1,20 @@
+:root{
+    --main-text-color:rgba(117, 117, 117, 1);
+    --sec-text-color:rgba(33, 33, 33, 1);
+    --acsent-text-color:rgba(255, 255, 255, 1);
+    --acsent-cec-text-color:rgba(33, 150, 243, 1);
+
+    --main-bgc:rgba(rgba(255, 255, 255, 1));
+    --sec-bgc:rgba(rgba(245, 244, 250, 1));
+    --acsent-bgc:rgba(47, 48, 58, 1);
+
+
+}
+
+body {
+    background: var(--main-bgc); 
+}
+
+body ul {
+text-decoration: none
+}
