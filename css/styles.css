@@ -16,11 +16,26 @@ body {
     background: var(--main-bgc); 
     color: var(--main-text-color);
     font-size: var(--main-text-size);
-
 }
 
 ul {
 list-style: none;
 }
-a {text-decoration: none;}
-a {color: var(--main-text-color);}
+
+
+a {
+    text-decoration: none;
+   color: var(--main-text-color);
+}
+
+.logo {
+    color: var(--acsent-cec-text-color);
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.logo-acsent{
+    color: var(--sec-text-color);
+    text-transform: capitalize;
+}
