@@ -39,3 +39,48 @@ a {
     color: var(--sec-text-color);
     text-transform: capitalize;
 }
+
+.hero {
+    background-color: var(--acsent-bgc);
+}
+
+.hero_title {
+    font-size: 44px;
+    color: var(--acsent-text-color);
+    text-transform: uppercase;
+}
+
+.hero_button {
+     background-color: var(--acsent-cec-text-color);
+     color: var(--acsent-text-color);
+
+}
+
+.features_item-title {
+    color: var(--sec-text-color);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.our-work_title {
+    color: var(--sec-text-color);
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.team {
+    background-color: var(--sec-bgc);
+}
+
+.team_title {
+    color: var(--sec-text-color);
+}
+
+.team_item-title {
+    color: var(--sec-text-color);
+}
+
+.footer {
+    background-color: var(--acsent-bgc);
+}
