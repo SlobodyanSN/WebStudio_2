@@ -40,6 +40,10 @@ a {
     text-transform: capitalize;
 }
 
+.nav_link {
+    text-transform: capitalize;
+}
+
 .hero {
     background-color: var(--acsent-bgc);
 }
@@ -94,6 +98,11 @@ a {
     color: var(--acsent-text-color);
 }
 
-/* .address>.address_list {
+.address-map {
 color: var(--acsent-text-color);
-} */
+}
+
+.address-mail,
+.address-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
