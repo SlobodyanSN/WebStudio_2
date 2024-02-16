@@ -44,6 +44,16 @@ a {
     text-transform: capitalize;
 }
 
+.nav_link:hover,
+.nav_link:focus {
+    color: var(--acsent-cec-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--acsent-cec-text-color);
+}
+
 .hero {
     background-color: var(--acsent-bgc);
 }
