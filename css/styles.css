@@ -94,7 +94,7 @@ a {
 }
 
 .address {
-    font-style: inherit;
+    font-style: normal;
     color: var(--acsent-text-color);
 }
 
