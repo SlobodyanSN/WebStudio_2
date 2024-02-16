@@ -16,6 +16,7 @@ body {
     background: var(--main-bgc); 
     color: var(--main-text-color);
     font-size: var(--main-text-size);
+    font-family: roboto, sans-serif;
 }
 
 ul {
@@ -31,8 +32,9 @@ a {
 .logo {
     color: var(--acsent-cec-text-color);
     font-size: 26px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: capitalize;
+    font-family: ralewey, sans-serif;
 }
 
 .logo-acsent{
@@ -72,14 +74,14 @@ a {
 
 .features_item-title {
     color: var(--sec-text-color);
-    font-weight: bold;
+    font-weight: 700;
     text-transform: capitalize;
 }
 
 .our-work_title {
     color: var(--sec-text-color);
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
 
 }
 
