@@ -105,6 +105,10 @@ a {
     line-height: 1.17;
     text-transform: uppercase;
 }
+.features-item>p{
+    font-size: 14px;
+    line-height: 1.71;
+}
 
 .team {
     background-color: var(--sec-bgc);
