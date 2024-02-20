@@ -119,13 +119,23 @@ a {
     color: var(--acsent-text-color);
 }
 
+.footer .logo:hover{
+    color: var(--acsent-text-color);
+}
+
+.footer .logo-acsent:hover {
+    color: var(--acsent-cec-text-color);
+}
+
 .address {
     font-style: normal;
     color: var(--acsent-text-color);
 }
+
 .address_link:hover{
     color: var(--acsent-cec-text-color);
 }
+
 .address-map {
 color: var(--acsent-text-color);
 }
