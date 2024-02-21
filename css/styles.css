@@ -114,16 +114,13 @@ a {
     background-color: var(--sec-bgc);
 }
 
-.team-title {
+
+
+.team-item-title {
     color: var(--sec-text-color);
     font-size: 16px;
     text-transform: capitalize;
     line-height: 1.17;
-
-}
-
-.team-item-title {
-    color: var(--sec-text-color);
 }
 
 .footer {
