@@ -95,7 +95,11 @@ a {
 
 .hero {
     background-color: var(--acsent-bgc);
-   
+    
+}
+
+.hero>.container {
+    padding: 200px 252px;
 }
 
 .hero-title {
@@ -105,7 +109,7 @@ a {
     text-transform: uppercase;
     text-align: center;
 
-    padding: 200px 252px 0 252px;
+    
     margin-bottom: 30px;
 }
 
@@ -132,14 +136,14 @@ a {
     text-align: center;
 }
 
-.features-item-title{
+.features-item-title {
     color: var(--sec-text-color);
     font-size: 14px;
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
 }
-.features-item>p{
+.features-item>p {
     font-size: 14px;
     line-height: 1.71;
 }
