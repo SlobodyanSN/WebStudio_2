@@ -124,8 +124,15 @@ a {
      padding: 15px 30px;
      border-color: transparent;
      border-radius: 4px;
-     
 
+     cursor: pointer;
+     
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--sec-text-color);
+    background-color:var(--sec-bgc);
 }
 
 .section-title {
@@ -201,8 +208,9 @@ color: var(--acsent-text-color);
 
 .button {
     font-weight: 500;
+    text-transform: capitalize;
 
-    padding: 6px 22px;
+    padding: 10px 22px;
     border: transparent;
     border-radius: 4px;
 }
