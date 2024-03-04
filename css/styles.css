@@ -116,8 +116,6 @@ header>.container {
 
 .hero {
     background-color: var(--acsent-bgc);
-    margin-bottom: 94px;
-    
 }
 
 .hero>.container {
@@ -163,6 +161,10 @@ header>.container {
     text-align: center;
 }
 
+.features {
+    padding: 94px 0;
+}
+
 .features-list{
     display: flex;
     gap: 30px;
@@ -180,6 +182,10 @@ header>.container {
     line-height: 1.71;
 }
 
+.our-work {
+    padding-bottom: 94px;
+}
+
 .our-work-list {
     display: flex;
     gap: 30px;
@@ -187,8 +193,11 @@ header>.container {
 
 .team {
     background-color: var(--sec-bgc);
+    padding: 94px 0;
 }
-
+.team-title {
+    margin-bottom: 50px;
+}
 .team-list {
     display: flex;
     gap: 30px;
