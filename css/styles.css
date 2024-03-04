@@ -286,3 +286,19 @@ color: var(--acsent-text-color);
 .examples-item {
     border: 1px solid #EEEEEE;
 }
+
+.examples-item img {
+    margin-bottom: 20px;
+}
+
+.examples-item h3 {
+    line-height: 2;
+    padding-left: 24px;
+}
+
+.examples-item p {
+    text-transform: capitalize;
+    line-height: 1.88;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
