@@ -159,6 +159,7 @@ header>.container {
     color: var(--sec-text-color);
     font-weight: 700;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .features {
@@ -248,7 +249,13 @@ color: var(--acsent-text-color);
 
 /* PORTFOLIO */
 
+.examples>.container {
+    padding: 94px 0;
+}
+
 .button-list {
+    margin-bottom: 34px;
+
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -267,10 +274,15 @@ color: var(--acsent-text-color);
 .button:focus {
     color: var(--acsent-text-color);
     background-color:var(--acsent-cec-text-color);
+    cursor: pointer;
 }
 
 .examples-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.examples-item {
+    border: 1px solid #EEEEEE;
 }
