@@ -58,8 +58,8 @@ header>.container {
     text-transform: capitalize;
     font-family: ralewey, sans-serif;
 
-    /* display: inline-block;
-    padding: 24px 0; */
+    display: inline-block;
+    padding: 24px 0;
 }
 
 .logo:hover,
@@ -84,8 +84,8 @@ header>.container {
 
 .nav-link {
     text-transform: capitalize;
-    /* display: inline-block;
-    padding: 32px 0; */
+    display: inline-block;
+    padding: 32px 0;
 }
 
 .nav-link:hover,
@@ -105,8 +105,8 @@ header>.container {
 }
 
 .contacts-link {
-    /* display: inline-block;
-        padding: 32px 0; */
+    display: inline-block;
+        padding: 32px 0;
 }
 
 .contacts-link:hover,
@@ -116,6 +116,7 @@ header>.container {
 
 .hero {
     background-color: var(--acsent-bgc);
+    margin-bottom: 94px;
     
 }
 
@@ -129,8 +130,6 @@ header>.container {
     color: var(--acsent-text-color);
     text-transform: uppercase;
     text-align: center;
-
-    
     margin-bottom: 30px;
 }
 
@@ -166,6 +165,7 @@ header>.container {
 
 .features-list{
     display: flex;
+    gap: 30px;
 }
 
 .features-item-title {
@@ -182,6 +182,7 @@ header>.container {
 
 .our-work-list {
     display: flex;
+    gap: 30px;
 }
 
 .team {
@@ -190,6 +191,7 @@ header>.container {
 
 .team-list {
     display: flex;
+    gap: 30px;
 }
 
 .team-item-title {
