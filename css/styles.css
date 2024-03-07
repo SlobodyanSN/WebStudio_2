@@ -59,8 +59,8 @@ header>.container {
     text-transform: capitalize;
     font-family: ralewey, sans-serif;
 
-    /* display: inline-block;
-    padding: 24px 0; */
+    display: block;
+    padding: 25px 0;
 }
 
 .logo:hover,
@@ -85,7 +85,7 @@ header>.container {
 
 .nav-link {
     text-transform: capitalize;
-    display: inline-block;
+    display: block;
     padding: 30px 0;
 }
 
@@ -107,7 +107,7 @@ header>.container {
 
 .contacts-link {
     display: block;
-        padding: 32px 0;
+    padding: 30px 0;
 }
 
 .contacts-link:hover,
@@ -126,6 +126,7 @@ header>.container {
     line-height:1.36;
     color: var(--acsent-text-color);
     text-transform: uppercase;
+
     margin-bottom: 30px;
 }
 
@@ -156,6 +157,7 @@ header>.container {
     line-height: 1.17;
     color: var(--sec-text-color);
     font-weight: 700;
+
     text-align: center;
     margin-bottom: 50px;
 }
@@ -263,10 +265,6 @@ header>.container {
 color: var(--acsent-text-color);
 }
 
-.address-mail,
-.address-tel {
-   
-}
 
 /* PORTFOLIO */
 
@@ -276,7 +274,6 @@ color: var(--acsent-text-color);
 
 .button-list {
     margin-bottom: 34px;
-
     display: flex;
     justify-content: center;
     gap: 8px;
